@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "page",
+  "info": {
+    "name": "page",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "default": "",
+      "type": "string"
+    },
+    "content": {
+      "default": "",
+      "type": "text"
+    },
+    "view": {
+      "default": "",
+      "type": "integer"
+    },
+    "visible": {
+      "default": false,
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "event",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "authors": {
+      "collection": "user",
+      "via": "events",
+      "dominant": true,
+      "plugin": "users-permissions"
+    },
+    "title": {
+      "default": "",
+      "type": "string"
+    },
+    "visible": {
+      "default": false,
+      "type": "boolean"
+    },
+    "content": {
+      "default": "",
+      "type": "text"
+    }
+  }
+}

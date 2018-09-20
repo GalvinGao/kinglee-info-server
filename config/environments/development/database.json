@@ -1,0 +1,21 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "localhost",
+        "srv": false,
+        "port": 27017,
+        "database": "kinglee-info",
+        "username": "",
+        "password": ""
+      },
+      "options": {
+        "authenticationDatabase": "",
+        "ssl": false
+      }
+    }
+  }
+}
